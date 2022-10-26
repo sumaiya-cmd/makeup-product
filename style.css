@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    background-color: #faddd5;
+    /* padding: 20px 20p  x; */
+}
+
+#main #nav{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    /* background-color: #ece6e580; */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#nav button{
+    padding: 10px 20px;
+    position: absolute;
+    right: 20px;
+    background-color: #F4F4F4;
+    outline: none;
+    border: 1px solid #c5c3c3;
+}
+
+#nav img{
+    height: 65%;
+}
+
+#nav h1{
+    margin-left: -30px;
+    font-family: "Voyage";
+    color:rgb(255, 88, 116) ;
+}
+
+#nav input{
+    padding:10px 40px ;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    border: 1px solid #c5c3c3;
+    /* box-shadow: 5px 2px 20px rgb(209, 209, 209); */
+    outline: none;
+    background-color: #F4F4F4;
+}
+
+#btns{
+    width: 10%;
+    /* background-color: yellow; */
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#btns button{
+    padding: 10px 20px;
+    /* outline: none; */
+    color: #ffff;
+    background-color: rgb(255, 157, 173);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(199, 158, 164);
+    border: 3px solid rgb(253, 147, 165);
+}
+
+#about{
+    width: 100%;
+    height:80%;
+    /* background-color:    red; */
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 10px;
+}
+
+#cntnt{
+    margin-left: 10%;
+    padding: 0 20px ;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color:  red; */
+}
+
+#first{
+    width: 20%;
+    height: 50%;
+    background-color:rgba(255, 255, 255, 0.238);
+    border-radius: 10px;
+    padding: 10px 10px ;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+#img{
+    width:100%;
+    height: 50%;
+    /* background-color:    red; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#img img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    
+}
+
+#first h3{
+    font-size: 17px;
+    font-family: "Ogg";
+    color: brown;
+}
+
+#first button{
+    padding: 5px 20px ;
+    margin-top: 30px;
+    background-color: rgb(255, 175, 188);
+    color: #ffff;
+    outline: none;
+    border: 2px solid rgb(250, 143, 161);
+}
+
+#showcart{
+    /* display:none ; */
+    width: 26%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    /* top: 10%; */
+    overflow: auto;
+    background-color:#F3F3F3;
+}
+
+
+#cartshowcnt{
+    width: 100%;
+    overflow: auto;
+    /* background-color: red; */
+}
+
+
+
+#cartcntnt{
+    margin-bottom: 10px;
+    width: 100%;
+    height: inherit;
+    background-color: #e1e1e162;
+    /* height: 1%; */
+    /* background-color: red; */
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cartimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    /* background-color: yellow; */
+}
+
+#cartimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+#cartbut{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#add{
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+
+#sub{
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+#cartbut button{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+#cartfoot{
+    width: 100%;
+    /* height: 20%; */
+    background-color: #ecebebda;
+    /* position: fixed   ; */
+    /* overflow: auto; */
+    bottom: 0;
+}
+
+#cartfoot>h2{
+    text-align: center;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(124, 121, 121);
+    margin-top: 10px;
+}
+
+.pay{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    margin-bottom: 10px;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+#nav2{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 10%;
+    box-shadow: 5px 0px 10px rgb(187, 187, 187);
+    background-color: #ffff;
+    display: flex;
+    position: relative;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+#arrow{
+    font-size: 30px;
+    color:rgb(219, 59, 86)
+}
+
+#nav2 h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#overlay{
+    display: none;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 221, 221, 0.753);
+}
